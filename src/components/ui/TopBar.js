@@ -7,9 +7,9 @@ const TopBar = () => (
         <i className="sidebar icon"></i>
       </a>
       <a className="active item">Home</a>
-      <a className="item">Blog</a>
-      <a className="item">Public Investments</a>
-      <a className="item">About Me</a>
+      <a className="item not-active" >Blog</a>
+      <a className="item not-active" >Public Investments</a>
+      <a className="item not-active" >About Me</a>
     </div>
   </div>
 );

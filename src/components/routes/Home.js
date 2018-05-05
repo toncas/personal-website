@@ -11,7 +11,9 @@ const Home = () => (
       <SideBar />
       <JumboTitle />
     </div>
-    <SocialBar />
+    <div className="ui container center aligned segment">
+      <SocialBar />
+    </div>
   </div>
 );
 
