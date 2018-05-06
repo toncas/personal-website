@@ -3,13 +3,13 @@ import React from 'react';
 const TopBar = props => (
   <div className="ui container">
     <div className="ui large secondary inverted pointing menu">
-      <a className="toc item">
-        <i className="sidebar icon"></i>
-      </a>
-      <a href="/" className={`item ${props.active === 'Home' ? 'active': ''}`}>Home</a>
-      <a href="/blog" className={`item ${props.active === 'Blog' ? 'active': ''}`} >Blog</a>
-      <a className={`item ${props.active === 'Investments' ? 'active': ''}`} >Public Investments</a>
-      <a className={`item ${props.active === 'Home' ? 'About': ''}`} >About Me</a>
+      <button className="toc item">
+        <i className="sidebar icon" />
+      </button>
+      <button onClick={() => props.history.push('/')} className={`item ${props.active === 'Home' ? 'active' : ''}`}>Home</button>
+      <button onClick={() => props.history.push('/blog')} className={`item ${props.active === 'Blog' ? 'active' : ''}`} >Blog</button>
+      <button onClick={() => props.history.push('/')} className={`item ${props.active === 'Investments' ? 'active' : ''}`} >Public Investments</button>
+      <button onClick={() => props.history.push('/')} className={`item ${props.active === 'About' ? 'active' : ''}`} >About Me</button>
     </div>
   </div>
 );

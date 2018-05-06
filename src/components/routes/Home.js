@@ -5,11 +5,17 @@ import JumboTitle from '../ui/JumboTitle';
 import SocialBar from '../ui/SocialBar';
 import Copyright from '../ui/Copyright';
 
-const Home = () => (
+const Home = props => (
   <div className="home">
     <div className="ui inverted vertical masthead center aligned segment">
-      <TopBar active="Home" />
-      <SideBar />
+      <TopBar
+        active="Home"
+        history={props.history}
+      />
+      <SideBar
+        active="Home"
+        history={props.history}
+      />
       <JumboTitle />
     </div>
     <div className="ui container center aligned segment">
