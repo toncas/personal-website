@@ -14,6 +14,10 @@ const Blog = props => (
         history={props.history}
       />
     </div>
+    <div className="ui container center">
+      <h1>The Blog</h1>
+      <p className="massive">Hey! Thanks for stopping by. Below is a list of all the blogs I have written so far. The newest blogs are on top.</p>
+    </div>
   </div>
 );
 

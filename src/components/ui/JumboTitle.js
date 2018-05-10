@@ -5,7 +5,7 @@ const JumboTitle = () => (
     <h1 className="ui inverted header">
       Antonio\Castro
     </h1>
-    <h2>Engineer | Human</h2>
+    <h2>Engineer | Strategist | Human</h2>
   </div>
 );
 
