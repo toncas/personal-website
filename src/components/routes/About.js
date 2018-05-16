@@ -29,7 +29,7 @@ const About = props => (
                 I lived in <a rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Auckland" target="_blank">Auckland</a>
               </p>
               <p>
-                I now live in The Silicon Valley
+                I now live in California
               </p>
               <p>
                 I sometimes write <a href="/blog">blogs</a>
@@ -47,7 +47,7 @@ const About = props => (
                 I love NZ coffee even more
               </p>
               <p>
-                I have a resumé
+                I have a <a href="/resume">resumé</a>
               </p>
               <p>
                 I currently work at [insert company here]
