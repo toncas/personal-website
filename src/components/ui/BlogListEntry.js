@@ -1,10 +1,18 @@
 import React from 'react';
-import { List } from 'semantic-ui-react';
 
 const BlogListEntry = props => (
-  <List.Item>
-    {props.blog}
-  </List.Item>
+  <div className="item">
+    <a className="ui small image">
+      <img alt="" src="https://loremflickr.com/240/240" />
+    </a>
+    <div className="content">
+      <a className="header">{props.blog.title}</a>
+      <div className="description">
+        <p>{props.blog.blurb}</p>
+        <p>Many people also have their own barometers for what makes a cute dog.</p>
+      </div>
+    </div>
+  </div>
 );
 
 export default BlogListEntry;

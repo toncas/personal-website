@@ -1,11 +1,10 @@
 import React from 'react';
-import { List } from 'semantic-ui-react';
 import BlogListEntry from './BlogListEntry';
 
 const BlogList = props => (
-  <List>
+  <div className="ui container items">
     {props.blogs.map(blog => <BlogListEntry blog={blog} />)}
-  </List>
+  </div>
 );
 
 export default BlogList;
