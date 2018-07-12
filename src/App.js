@@ -4,6 +4,7 @@ import Blog from './components/routes/Blog';
 import Home from './components/routes/Home';
 import About from './components/routes/About';
 import Resume from './components/routes/Resume';
+import IntroductionBlog from './Blogs/IntroductionBlog';
 
 import './styles/AppStyle.css';
 
@@ -14,6 +15,7 @@ class App extends React.Component {
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/blog" exact component={Blog} />
+          <Route path="/blog/introduction" exact component={IntroductionBlog} />
           <Route path="/about" exact component={About} />
           <Route path="/resume" exact component={Resume} />
         </Switch>

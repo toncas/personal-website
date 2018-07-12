@@ -3,7 +3,7 @@ import React from 'react';
 const BlogListEntry = props => (
   <div className="item">
     <a className="ui small image">
-      <img alt="" src="https://loremflickr.com/240/240" />
+      <img alt="" src="https://loremflickr.com/240/240/dog" />
     </a>
     <div className="content">
       <a className="header">{props.blog.title}</a>

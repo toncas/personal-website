@@ -1,0 +1,24 @@
+h3 {
+  text-decoration: underline;
+  margin-bottom: 0%;
+}
+
+.no-margin {
+  margin-bottom: 0%;
+}
+
+.section {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+.fat {
+  margin-top: 4em;
+}
+
+.ad {
+  color: aquamarine;
+}
+
+.ret {
+  color: indianred;
+}

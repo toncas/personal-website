@@ -37,6 +37,7 @@ const About = props => (
               <p>
                 I always write <a rel="noopener noreferrer" href="https://github.com/toncas" target="_blank">code</a>
               </p>
+              <p>Sometimes with a <a rel="noopener noreferrer" href="https://toncdiv.netlify.com/" target="_blank">team</a></p>
               <p>
                 I have a dog. His name is <a rel="noopener noreferrer" href="https://www.instagram.com/p/BbVDfz5Fay9/" target="_blank">Whiskey</a>
               </p>
@@ -50,7 +51,7 @@ const About = props => (
                 I have a <a href="/resume">resumé</a>
               </p>
               <p>
-                I currently work at [insert company here]
+                I currently work at <a rel="noopener noreferrer" href="http://eyeqxl.com" target="_blank">EyeQXL</a>
               </p>
             </div>
             <div className="six wide column">

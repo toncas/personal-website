@@ -24,11 +24,11 @@ const Blog = props => (
   <div className="blog">
     <div className="ui inverted vertical center aligned segment">
       <TopBar
-        active="blog"
+        active="Blog"
         history={props.history}
       />
       <SideBar
-        active="blog"
+        active="Blog"
         history={props.history}
       />
     </div>
